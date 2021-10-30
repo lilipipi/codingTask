@@ -37,5 +37,5 @@ for table in tables:
         plt.title(heading)
 
         fileName = colHeading + ".pdf"
-        plt.figure.savefig("outputs/" + fileName)
+        plt.savefig("outputs/" + fileName)
         plt.clf()
