@@ -36,6 +36,6 @@ for table in tables:
         plt.legend()
         plt.title(heading)
 
-        fileName = colHeading + ".pdf"
+        fileName = str(colHeading) + ".pdf"
         plt.savefig("outputs/" + fileName)
         plt.clf()
